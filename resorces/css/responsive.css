@@ -1,0 +1,56 @@
+@media only screen and (max-width:1040px){
+    html{
+        font-size: 57.5%;
+    }
+    .hero-text-box{
+        width: 90%;
+    }
+    .row{
+        margin: 0 20px ;
+    }
+    
+    .about-section .box img{
+        float: none;
+        margin-bottom: 10px;
+    }
+    .about-section .box{
+        text-align: center;
+    }
+    .contact-section form{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:980px){
+    html{ font-size: 62.5%; }
+
+    .main-nav{ display: none; }
+    .mobile-manu span{ display: block;}
+    .span_1_of_4 { width: 49.2%; }
+    .span_1_of_4:nth-child(3){ margin-left: 0;}
+}
+
+@media only screen and (max-width:768px){
+    html{
+        font-size: 48.5%;
+    }
+    .head-pg{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:480px){
+    .span_1_of_4 {
+        width: 100%;
+    }
+    .hero-text-box{
+        font-size: 10px;
+    }
+    .head-line{
+        font-size: 3rem;
+    }
+    footer ul li a:link,
+    footer ul li a:visited{
+        font-size: 1.4rem;
+    }
+}
